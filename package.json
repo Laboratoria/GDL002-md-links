@@ -1,4 +1,13 @@
 {
   "name": "md-links",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "description": "\"Design a library using Node.js who can indetify .md files and get some stadistics\"",
+  "main": "index.js",
+  "scripts": {
+    "tests": "jest"
+  },
+  "dependencies": {
+    "eslint-plugin-jest": "^22.4.1",
+    "node-fetch": "^2.3.0"
+  }
 }
