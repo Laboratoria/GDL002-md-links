@@ -1,6 +1,6 @@
 {
     "name": "md-links",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "\"Design a library using Node.js who can indetify .md files and get some stadistics\"",
     "main": "index.js",
     "directories": {
@@ -16,7 +16,6 @@
       "eslint": "^5.16.0"
     },
     "scripts": {
-      "pretest": "eslint --ignore-path .gitignore .",
       "test": "jest"
     },
     "repository": {

@@ -117,4 +117,4 @@ mdLinks.markdownLinkExtractor = (file, markdown, line) => {
   return links;
 };
 
-module.exports = mdLinks;
+module.exports = linksmd;
