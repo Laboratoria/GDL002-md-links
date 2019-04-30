@@ -5,7 +5,7 @@ test('should be a markdown file', () => {
 });
 
 test('should be an absolute path ', () => {
-  expect(absolutePath('README.md')).toBe("/home/laboratoria-180/Escritorio/GDL002-md-links/README.md");
+  expect(absolutePath('README.md')).toBe("C:\Users\Karla Val\Documents\GitHubKarla\GDL002-md-links");
 });
 
 test('should read a file', () => {
