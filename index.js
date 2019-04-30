@@ -7,7 +7,7 @@ mdLinks.fileOrDirectory(path, result => {
   console.log(result);
 });
 
-//ruta filterMd  C:\Users\Karla Val\Documents\GitHubKarla\GDL002-md-links
+//ruta filterMd  C:\Users\Karla Val\Documents\GitHubKarla\GDL002-md-links\README.md
 
 mdLinks.filterMd(path, result => {
   console.log(result);
