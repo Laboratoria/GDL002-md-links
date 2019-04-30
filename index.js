@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const mdLinks = require('../GDL002-md-links/blob/master/README').mdLinks;
+/*const mdLinks = require('./Linksmd.js');
 const path = require('path');
 const fetch = require('node-fetch');
 const [, , ...args] = process.argv;
