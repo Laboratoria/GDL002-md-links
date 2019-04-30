@@ -5,7 +5,13 @@
     "parserOptions": {
       "ecmaVersion": 6
     },
-    "rules": {
+      "plugins": ["jest"],
+      "rules": {
+      "jest/no-disabled-tests": "warn",
+      "jest/no-focused-tests": "error",
+      "jest/no-identical-title": "error",
+      "jest/prefer-to-have-length": "warn",
+      "jest/valid-expect": "error",
       "keyword-spacing": 1,
       "space-before-function-paren": [1, "never"],
       "eqeqeq": 1,
@@ -28,5 +34,7 @@
       "id-length": [1, { "exceptions": ["i", "j", "x"] }],
       "indent": [1, 2],
       "no-array-constructor": 1
-    }
+    },
+    "extends": ["plugin:jest/recommended"]
   }
+
