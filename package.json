@@ -1,4 +1,37 @@
 {
   "name": "md-links",
-  "version": "0.1.0"
+  "version": "1.0.0",
+  "description": "\"Design a library using Node.js who can indetify .md files and get some stadistics\"",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "eslint-plugin-jest": "^22.5.1",
+    "markdown": "^0.5.0",
+    "marked": "^0.6.2",
+    "node-fetch": "^2.3.0",
+    "npm": "^6.9.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "eslint": "^5.16.0",
+    "jest": "^24.7.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarlyVall/GDL002-md-links.git"
+  },
+  "author": "Karla Elizabeth Valenzuela Ríos",
+  "license": "ISC",
+  "bin": {
+    "md-links": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/KarlyVall/GDL002-md-links/issues"
+  },
+  "homepage": "https://github.com/ElizabethVegaM/scl-2018-01-FE-markdown#readme"
 }
