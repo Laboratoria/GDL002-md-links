@@ -25,6 +25,7 @@ function readFileMd(pathMd) {
       } else {
         resolve(data);
       }
+      console.log(data);
     });
   });
 }
