@@ -1,4 +1,18 @@
 {
-  "name": "md-links",
-  "version": "0.1.0"
+  "name": "cristalcabrera95-md-links",
+  "version": "0.1.0",
+  "description": "buscar, encontrar y verificar links en archivos markdown",
+  "main": "mdLinks.js",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "markdown": "^0.5.0"
+  },
+  "bin": {
+    "md-link": "./src/cli.js"
+  }
 }
